@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	void * thread_return;
 	int ret;
 	struct sockaddr_rc addr = { 0 };
-  	char dest[18] = "98:D3:A1:FD:5E:0C";	//iot00
+  	char dest[18] = "98:D3:A1:FD:5E:0C";	//arduino address
 	char msg[BUF_SIZE];
 
 	if(argc != 4) {
